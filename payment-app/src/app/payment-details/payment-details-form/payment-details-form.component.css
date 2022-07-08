@@ -1,0 +1,37 @@
+.form-group label{
+  color: grey;
+}
+.form-group input{
+font-weight: 500;
+}
+.form-group input::placeholder{
+  color: #c0bddb;
+  font-weight: 300;
+}
+thead th{
+  font-weight: 400;
+}
+table tbody tr:hover{
+  background-color:#fffbf2;
+  cursor: pointer;
+}
+
+input.invalid{
+  border-color: red;
+}
+label{
+  color: rgb(39, 50, 70) !important;
+  font-size: 20px;
+}
+input{
+ margin-bottom: 20px;
+}
+button{
+  background-color: darkblue;
+  color: white;
+  margin-top: -10px;
+}
+.reset{
+  background-color: rgb(194, 92, 92);
+  margin-left: 20px;
+}
